@@ -1,4 +1,6 @@
-secret = 7
+import random
+secret = random.randint(1,10)
+#print secret
 guess = int(raw_input("Guess the secret number (1-10): "))
 
 if secret == guess:
